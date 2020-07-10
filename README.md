@@ -22,5 +22,5 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Python-Script: /home/pi/blackhole.py
 
 ## Auto-Restart for Python-Script
-* Add "sudo python /xx/xx/xx.py" before "exit 0" of /etc/rc.local
-* Make sure the rc-local.service is running, use "systemctl enable rc-local.service" to enable it
+* Add "sudo python /home/pi/blackhole.py &" before "exit 0" of /etc/rc.local (Done)
+* Make sure the rc-local.service is running, use "systemctl enable rc-local.service" to enable it (Done)
