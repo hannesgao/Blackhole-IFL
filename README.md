@@ -10,3 +10,6 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Webmin Ver 1.953
 * Apache Ver 2.4.38 (Raspbian)
 
+## Maintenance
+* Visit https://[IP Address of the Raspberry Pi in IFL-Intranet]:10000/ to open Webmin Web-GUI
+* Use SSH-Client to do Maintenance manually
