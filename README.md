@@ -6,5 +6,5 @@ The Blackhole Observer in IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Raspberry Pi Camera Module (I) Rev 2.2
 
 ## Enviorment
-* OS:    Raspberry Pi OS (32-bit) with desktop Ver.2020.05
-* Web-GUI:    Webmin Ver.1.953
+* Raspberry Pi OS (32-bit) with desktop Ver 2020.05
+* Webmin Ver 1.953
