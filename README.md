@@ -1,5 +1,5 @@
 # Blackhole Observer@IFL
-The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
+The Blackhole Observer of IFL based on Raspberry Pi 3B and Pi Camera Module.
 
 ## Hardware
 * Raspberry Pi 3 Model B Rev 1.2 with 1GB RAM
