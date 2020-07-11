@@ -43,3 +43,10 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Set its Domain Name to http://blackhole.ifl.kit.edu within the IFL-internal DNS System
 * Modify Apache Web-Server Configuration, set the Address of this virtuell Server to http://blackhole.ifl.kit.edu
 * Test the Reachability and Functionality of the System in IFL-Intranet
+
+*** 
+
+## Possible Issues
+
+### By Power Outage
+* Abnormal shutdown of the Raspberry Pi caused by a power outage may cause irreversible damage to the file system and operating system, resulting in abnormal booting or file damage. This is due to the hardware design of the Raspberry Pi and cannot be resolved
