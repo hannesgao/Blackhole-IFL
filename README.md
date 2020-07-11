@@ -12,11 +12,8 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 
 ## Maintenance
 * Use SSH-Client to do Maintenance manually
-* Visit https://[IP Address of the Raspberry Pi in IFL-Intranet]:10000/ to open the Webmin Web-GUI in order to:
-    1. Monitor Server Health
-    2. Modify Apache Web-Server Configuration
-    3. and many useful Funktions...
-    
+* Visit https://[IP Address of the Raspberry Pi in IFL-Intranet]:10000/ to open the Webmin Web-GUI
+
 ## Directory
 * Website: /var/www/html/
 * Python-Script: /home/pi/blackhole.py
@@ -30,6 +27,15 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 
 ### Apache Server
 * Done with the same way
+
+***
+
+## Done List
+* Front-End Page created and tested
+* Raspberry Pi OS updated (SD Card reburned with the newest offical Image) in order to fix Camera Issues
+* Webmin, Apache and other necessary software installed
+* Auto-Restart Script for Apache Server and Python-Script deployed and tested
+* Reachability and Functionality of the System in Home-LAN tested
 
 ## To-Do List
 * Link the Raspberry Pi into IFL-Intranet
