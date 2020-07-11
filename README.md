@@ -1,4 +1,4 @@
-# Blackhole-IFL
+# Blackhole Observer@IFL
 The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 
 ## Hardware
@@ -41,4 +41,4 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Link the Raspberry Pi into IFL-Intranet
 * Set its Domain Name to http://blackhole.ifl.kit.edu within the IFL-internal DNS System
 * Modify Apache Web-Server Configuration, set the Address of this virtuell Server to http://blackhole.ifl.kit.edu
-* Test the Reachability and Functionality of the System
+* Test the Reachability and Functionality of the System in IFL-Intranet
