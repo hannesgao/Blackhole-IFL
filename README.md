@@ -36,17 +36,24 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Raspberry Pi OS updated (SD Card reburned with the newest offical Image) in order to fix Camera Issues
 * Webmin, Apache and other necessary software installed
 * Auto-Restart Script for Apache Server and Python-Script deployed and tested
-* Reachability and Functionality of the System in Home-LAN tested
+* Accessibility and Functionality of the System in Home-LAN tested
 
 ## To-Do List
 * Link the Raspberry Pi into IFL-Intranet
 * Set its Domain Name to http://blackhole.ifl.kit.edu within the IFL-internal DNS System
 * Modify Apache Web-Server Configuration, set the Address of this virtuell Server to http://blackhole.ifl.kit.edu
-* Test the Reachability and Functionality of the System in IFL-Intranet
+* Test the Accessibility and Functionality of the System in IFL-Intranet
 
 *** 
 
-## Possible Issues
+## Robustness and possible Issues
 
 ### By Power Outage
-* Abnormal shutdown of the Raspberry Pi caused by a power outage may cause irreversible damage to the file system and operating system, resulting in abnormal booting failure or file damage. This is due to the hardware design problem of the Raspberry Pi and cannot be resolved by software.
+* Abnormal shutdown of the Raspberry Pi caused by a power outage may cause irreversible damage to the file system and operating system, resulting in abnormal booting failure or file damage. 
+* This is due to the hardware design problem (no Power-Switch) of the Raspberry Pi and cannot be resolved by software.
+* After normal shutdown and restart (e.g. with "sudo shutdown" or "sudo reboot" command) , the Blackhole Observer will start with the operating system and run automatically.
+
+### By short-term Network Problem
+* Network problems will not affect the running of the Python-Script and Apache server.
+* When there is a network problem, the website may not be accessible.
+* After the network is restored, as long as the Raspberry Pi is still running normally, there is no problem with the accessibility and functionality of the website.
