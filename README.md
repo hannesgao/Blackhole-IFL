@@ -21,12 +21,14 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Website: /var/www/html/
 * Python-Script: /home/pi/blackhole.py
 
-## Auto-Restart for Python-Script (Done) 
+## Auto-Restart after Reboot (Done)
+
+### Python-Script
 * Add "sudo python /home/pi/blackhole.py &" before "exit 0" of /etc/rc.local (Done)
 * Make sure the rc-local.service is running, use "systemctl enable rc-local.service" to enable it (Done)
 * Then the Python-Script for Taking Photos every 5 seconds will run automatically when the Raspberry Pi reboots
 
-## Auto-Restart for Apache Server (Done)
+### Apache Server
 * Done with the same way
 
 ## To-Do List
