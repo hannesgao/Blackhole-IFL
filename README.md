@@ -14,6 +14,7 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 ## Maintenance
 * Use SSH-Client to do Maintenance manually
 * Visit https://[IP Address of the Raspberry Pi in IFL-Intranet]:10000/ to open the Webmin Web-GUI
+* Use the Username and Password of Raspberry Pi to login.
 
 ## Directory
 * Website: /var/www/html/
