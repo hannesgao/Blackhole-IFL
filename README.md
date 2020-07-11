@@ -49,4 +49,4 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 ## Possible Issues
 
 ### By Power Outage
-* Abnormal shutdown of the Raspberry Pi caused by a power outage may cause irreversible damage to the file system and operating system, resulting in abnormal booting or file damage. This is due to the hardware design of the Raspberry Pi and cannot be resolved
+* Abnormal shutdown of the Raspberry Pi caused by a power outage may cause irreversible damage to the file system and operating system, resulting in abnormal booting failure or file damage. This is due to the hardware design problem of the Raspberry Pi and cannot be resolved by software.
