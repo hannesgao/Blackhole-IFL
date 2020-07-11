@@ -9,6 +9,7 @@ The Blackhole Observer of IFL based on Raspberry Pi 3B+ and Pi Camera Module.
 * Raspberry Pi OS (32-bit) with desktop Ver 2020.05
 * Webmin Ver 1.953
 * Apache Ver 2.4.38 (Raspbian)
+* Python Ver 2.7.16
 
 ## Maintenance
 * Use SSH-Client to do Maintenance manually
